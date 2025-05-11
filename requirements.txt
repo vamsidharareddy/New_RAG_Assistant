@@ -6,4 +6,4 @@ transformers
 langchain
 requests
 pydantic
-huggingface_hub
+faiss-cpu
