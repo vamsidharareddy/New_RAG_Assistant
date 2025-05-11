@@ -11,8 +11,8 @@ st.write("👋 App started successfully!")
 st.write("⏳ Downloading GGUF model from Hugging Face...")
 try:
     model_path = hf_hub_download(
-        repo_id="vamsidhara/RAG-ASSISTANT",
-        filename="mistral-7b-instruct-v0.1.Q4_K_M.gguf"
+        repo_id="vamsidhara/NEW_RAG",
+        filename="tinyllama-1.1b-chat-v1.0.Q2_K.gguf"
     )
     st.success("✅ Model downloaded.")
 except Exception as e:
