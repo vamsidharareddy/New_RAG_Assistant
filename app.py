@@ -1,5 +1,14 @@
 import streamlit as st
-from huggingface_hub import hf_hub_download
+import subprocess
+import sys
+
+# Attempt to install missing dependencies at runtime
+try:
+    from huggingface_hub import hf_hub_download
+except ModuleNotFoundError:
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "huggingface_hub"])
+    from huggingface_hub import hf_hub_download
+
 from llama_cpp import Llama
 
 st.title("🧠 RAG-Powered Multi-Agent Q&A Assistant")
