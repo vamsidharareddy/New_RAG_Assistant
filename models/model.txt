@@ -1,1 +1,1 @@
-use mistral-7b-instruct-v0.1.Q4_K_M.gguf as model it can be cloned form https://huggingface.co/Vamsidhara/RAG-ASSISTANT
+use tinyllama-1.1b-chat-v1.0.Q2_K.gguf as model it can be cloned form https://huggingface.co/Vamsidhara/New_RAG_Assistant
