@@ -1,7 +1,7 @@
 from llama_cpp import Llama
 
 # Load the model globally
-llm = Llama(model_path="models/mistral-7b-instruct-v0.1.Q4_K_M.gguf", n_ctx=2048)
+llm = Llama(model_path="models/tinyllama-1.1b-chat-v1.0.Q2_K.gguf", n_ctx=2048)
 
 def ask_llm(prompt, llm=llm):
     """
