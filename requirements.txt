@@ -1,0 +1,8 @@
+streamlit
+huggingface_hub
+llama-cpp-python
+sentence-transformers
+transformers
+langchain
+requests
+pydantic

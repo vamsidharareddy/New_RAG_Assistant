@@ -1,0 +1,1 @@
+use mistral-7b-instruct-v0.1.Q4_K_M.gguf as model it can be cloned form https://huggingface.co/Vamsidhara/RAG-ASSISTANT

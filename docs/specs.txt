@@ -1,0 +1,10 @@
+Product Name: XPro Smartwatch
+Display: 1.8" AMOLED Touchscreen
+Battery Life: Up to 10 days on a single charge
+Connectivity: Bluetooth 5.2, Wi-Fi
+Sensors: Heart Rate Monitor, SpO2, Accelerometer
+Compatibility: Android 8.0+ and iOS 12+
+
+Charging Time: 2 hours
+Water Resistance: IP68 certified
+Weight: 45 grams
